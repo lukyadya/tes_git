@@ -4,12 +4,12 @@ class test_2(TaskSet):
     @task 
     def get_500_status(self):
         self.client.get("/500")
-        print("tes ubah kalimat Berhasil mendapatkan code 500")
+        print("tes ubah lagi kalimat Berhasil mendapatkan code 500")
 
     @task 
     def get_status(self):
         self.client.get("/200")
-        print("tes ubah kalimat Berhasil mendapatkan code 200")
+        print("tes ubah lagi kalimat Berhasil mendapatkan code 200")
 
 class test_1(HttpUser):
         host = "https://partaiperindo.com"
